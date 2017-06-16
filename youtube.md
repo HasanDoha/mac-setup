@@ -2,7 +2,8 @@
 
 At first install 'youtube-dl' using following commands...
 
-''''
+sudo pip install --upgrade youtube_dl
+
 or
 
 brew install youtube-dl
