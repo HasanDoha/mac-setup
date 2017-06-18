@@ -40,3 +40,23 @@ Remove temp java directory:
 
 $ rm -fr java/
 And DONE. Now building the Java file will now attempt to run it as well. I prefer this behavior instead of having to do another "variant" to run the program.
+
+
+
+Easy step-by-step:
+
+Install Package Control if you have't already
+Using Package Control, install Package Resource Viewer
+Open Package Control, type prv and run PackageResourceViewer: Open Resource
+Select Java
+Select JavaC.sublime-build
+Replace the build JSON definition with the below code block exactly
+You're done! ctrl+b should now compile and run your Java file.
+Build JSON definition:
+
+{
+  "cmd": ["javac \"$file_name\" && java \"$file_base_name\""],
+  "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+  "selector": "source.java",
+  "shell": true
+}
