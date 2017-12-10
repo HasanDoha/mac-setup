@@ -98,7 +98,7 @@ Then download the bibulous.py file from github and copy that to the /usr/local/b
 ```
 $ cp ~/Downloads/bibulous.py /usr/local/bin/bibulous.py
 ```
-Then go to TexMaker->Preferences->Commands->Bib(la)tex and peast the following line & save it
+Then go to TexMaker->Preferences->Commands->Bib(la)tex and paste the following line & save it
 ```
 python /usr/local/bin/bibulous.py %.aux
 ```
