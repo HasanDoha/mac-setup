@@ -32,11 +32,24 @@ LaTex Editor's:
 MacTeX includes additional programs such as an editor and a BibTeX reference manager that help users to work with TeX outside of the command line. BasicTeX does not include these GUI programs. The trade-off that comes with using BasicTeX is that you will have to download and install additional packages and programs as the need arises- and BasicTeX is so basic that the need will arise. So, after installing BasicTeX you will be faced with the tasks of installing additional programs and installing missing packages.
 
 ### Bibliography
+
+### betterbib
 [betterbib] (https://github.com/nschloe/betterbib)
-BibTeX files are typically manually maintained and thus often contain
-inconsistencies, mistakes, or are missing information. betterbib helps
-maintaining your BibTeX files by comparing them with online sources and
-correcting whatever entries are found faulty. For example, with
+
+
+##### Installation of betterbib
+
+To install simply type
+```
+pip install -U betterbib
+```
+If you have installed Anaconda then create a link of BetterBib by the following command
+```
+$ ln -s /Users/doha420du/anaconda3/bin/betterbib /usr/local/bin/betterbib
+```
+
+##### Usage
+
 ```
 $ betterbib in.bib out.bib
 ```
@@ -73,31 +86,21 @@ betterbib fetches data from
 
 All betterbib command-line options are explained in `betterbib -h`.
 
+### bibulous
+[bibulous] (https://github.com/nzhagen/bibulous)
 
-#### Installation
 
-##### Python Package Index
-
-betterbib is [available from the Python Package
-Index](https://pypi.python.org/pypi/betterbib/), so simply type
+##### Installation of bibulous
 ```
-pip install -U betterbib
+$ pip install bibulous
 ```
-to install or upgrade. Use `sudo -H` to install as root or the `--user` option
-of `pip` to install in `$HOME`.
-
-
-##### Requirements
-
-betterbib requires
-
-* [enchant](https://abiword.github.io/enchant/) and
-* [pandoc](https://pandoc.org/)
-
-to be installed.
-
-
-##### Usage
+Then download the bibulous.py file from github and copy that to the /usr/local/bin/ directory by the following command
 ```
-$ betterbib mybibliography.bib out.bib
+$ cp ~/Downloads/bibulous.py /usr/local/bin/bibulous.py
 ```
+Then go to TexMaker->Preferences->Commands->Bib(la)tex and peast the following line & save it
+```
+python /usr/local/bin/bibulous.py %.aux
+```
+
+
