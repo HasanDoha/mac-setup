@@ -64,7 +64,7 @@ If this is a new computer, there are a couple tweaks you would like to make to t
     
 #### Install ntfs-3g
 
-    $ brew install homebrew/fuse/ntfs-3g
+    $ brew install ntfs-3g
 
 #### If you are on OSX 10.11 (El Capitan), temporary disable System Integrity Protection.
 
