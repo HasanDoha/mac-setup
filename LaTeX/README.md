@@ -31,6 +31,17 @@ LaTex Editor's:
 
 MacTeX includes additional programs such as an editor and a BibTeX reference manager that help users to work with TeX outside of the command line. BasicTeX does not include these GUI programs. The trade-off that comes with using BasicTeX is that you will have to download and install additional packages and programs as the need arises- and BasicTeX is so basic that the need will arise. So, after installing BasicTeX you will be faced with the tasks of installing additional programs and installing missing packages.
 
+### getnonfreefonts
+
+To install getnonfreefonts run the following commands
+```
+$ curl --remote-name https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
+$ sudo texlua install-getnonfreefonts
+$ sudo getnonfreefonts --sys -a
+```
+
+
+
 ### Bibliography
 
 ### betterbib
