@@ -91,3 +91,27 @@ to verify pip is installed properely enter
         pip --version
 
 If it tells you the version of pip you've installed, you are all set to use **pip**.
+
+#### matplotlib
+```
+$ pip2 install matplotlib
+$ pip3 install matplotlib
+
+$ pip2 install seaborn
+$ pip3 install seaborn
+
+$ pip2 install --upgrade --no-deps statsmodels
+$ pip3 install --upgrade --no-deps statsmodels
+
+$ pip2 install -U ggplot
+$ pip3 install -U ggplot
+
+pip2 install altair
+pip3 install altair
+
+pip2 install bokeh
+pip3 install bokeh
+
+pip2 install pygal
+pip3 install pygal
+```
