@@ -47,6 +47,9 @@ Please use a strong passphrase for your keys.
 
 Third, Add your keys to GitHub by going into account settings.
 
+After that to copy the SSH key type the following command...
+    `$ pbcopy < ~/.ssh/id_rsa.pub'
+
 - - -
 
 ### DS_Store
