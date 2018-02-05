@@ -1,0 +1,17 @@
+You can now use IrfanView!
+Try WineBottler <http://winebottler.kronenberg.org/downloads>
+
+This free software is a wrapper for WINE, which unlike other Windows emulators is really simple to set up.
+It just works.
+
+1- download WineBottler from the above site, and install it.
+2- Download the latest version of IrfanView (4.25)
+3- Start WineBottler and Create a Custom Prefix
+4- For the Install File, select the IrfanView installation file you just downloaded
+5- In the Winetricks section select vc6run
+6- Click Install
+
+You'll then see a standard Windows installation - follow the prompts.
+BTW- at the end there's a pop-up, from which you should select ivew32.exe as the executable to run. Obvious but worth mentioning.
+
+That's it! WineBottler generates an Irfanview App that can by launched like any Mac App.
