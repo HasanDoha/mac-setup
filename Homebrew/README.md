@@ -20,3 +20,14 @@ Alternatively, we can also insert `/usr/local/bin` to the first line of `/privat
 Open an new terminal tab with **Cmd+T** (you should also close the old one), then run the following command to make sure everything works:
 
     $ brew doctor
+
+You can use pdfunite distributed with poppler. You can install poppler with Homebrew:
+
+    $ brew install poppler
+
+And now use it:
+
+    $ pdfunite input1.pdf input2.pdf input3.pdf output.pdf
+
+poppler also comes with these other commands: pdfdetach, pdffonts, pdfimages, pdfinfo, pdfseparate, pdftocairo, pdftohtml, pdftoppm, pdftops, pdftotext, in addition to pdfunite.
+
