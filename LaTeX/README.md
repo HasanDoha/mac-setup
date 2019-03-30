@@ -114,4 +114,19 @@ Then go to TexMaker->Preferences->Commands->Bib(la)tex and paste the following l
 python /usr/local/bin/bibulous.py %.aux
 ```
 
-
+## PNG to TikZ 
+1. install Inkscape using following commands
+```
+$ brew tap homebrew/cask
+$ brew cask install inkscape
+```
+2. Then download and copy the files 'tikz_export.py', 'tikz_export_effect.inx', and 'tikz_export_output.inx' from this github directory and put them in the '/Users/doha420du/.config/inkscape/extensions' directory.
+3. Load a .png image file and save it as .svg file.
+4. Load that .svg file and then select the image
+5. Then Right Click and select 'Trace Bitmap...'
+6. Then keep the new bitmap trace and remove the privious image
+7. Then select the new bitmap trace
+8. Go to 'Extensions->Export->Export to TikZ path...'
+9. select the checkbox for 'Export to clipboard'
+10. Then click 'Apply'
+11. paste it in a tex file and compile and check...
