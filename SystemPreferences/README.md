@@ -153,3 +153,7 @@ You can also modify my example by using the following options in the export comm
     \W – Current working directory (i.e: Desktop/)
     \w – Current working directory, full path (i.e: /Users/Admin/Desktop)
 ```
+After that run the following command to make the change effective
+```
+    $ source ~/.profile
+```
