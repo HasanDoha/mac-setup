@@ -130,3 +130,26 @@ so for example:
 
 ## Additional Resources
 Type scutil --help for the complete list of parameters.
+
+
+# Change terminal display of computer name
+You can define what you want to see before the $ in your terminal by modifying the file ~/.profile.
+
+For example if you add to the file ~/.profile the following line:
+```
+    export PS1="\h:\w$ "
+```
+you will see the host name and the complete path of the current directory:
+```
+    host_name:current_directory_path$
+```
+You can also modify my example by using the following options in the export command:
+```
+    \d – Current date
+    \t – Current time
+    \h – Host name
+    \# – Command number
+    \u – User name
+    \W – Current working directory (i.e: Desktop/)
+    \w – Current working directory, full path (i.e: /Users/Admin/Desktop)
+```
