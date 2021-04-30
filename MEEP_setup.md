@@ -50,3 +50,4 @@ Links:
 https://www.mail-archive.com/meep-discuss@ab-initio.mit.edu/msg05719.html
 https://darkalexwang.github.io/2016/10/06/python-meep-install-mac/
 https://www.mail-archive.com/meep-discuss@ab-initio.mit.edu/msg05292.html
+http://jdj.mit.edu/wiki/index.php?title=Meep_Installation&printable=yes
