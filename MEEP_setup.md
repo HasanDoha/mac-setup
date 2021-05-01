@@ -19,8 +19,8 @@ brew install gsl
 brew install swig
 brew install automake
 brew install autoconf
-4. download source for libpng and after extracting it go to that directory and open a new terminal over there and run the following commands
-./configure [--prefix=/path]
+4. download source for the latest version of libpng from github [https://github.com/glennrp/libpng] and after extracting it go to that directory and open a new terminal over there and run the following commands
+./configure
 make check
 make install
 5. download source for the latest version of h5utils from github [https://github.com/NanoComp/h5utils] and after extracting it go to that directory and open a new terminal over there and run the following commands
