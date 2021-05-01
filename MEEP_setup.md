@@ -43,8 +43,19 @@ make install
 sh autogen.sh
 make
 make install
-10. Install python MEEP using pip
-pip3 install meep
+10. Install python MEEP using conda
+conda install -c conda-forge pymeep
+conda install -c conda-forge openblas
+11. check the pymeep installation by the following command
+python3 -c 'import meep'
+
+
+
+
+
+
+
+
 
 Links:
 https://www.mail-archive.com/meep-discuss@ab-initio.mit.edu/msg05719.html
